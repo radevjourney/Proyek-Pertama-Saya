@@ -1,0 +1,146 @@
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: roboto;
+}
+body {
+    background-color: #1e1e1e;
+}
+.lg {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+nav a {
+    position: relative;
+    bottom: 150px;
+    left: 650px;
+    text-decoration: none;
+    margin: 8px;
+    color:  #d9d9d9;
+    border: 2px solid #3b3b3b; padding: 7px;
+    border-radius: 8px;
+    transition: 0.6;
+    font-size: 15px;
+    background-color: #3b3b3b;
+}
+nav a:hover {
+    background-color: greenyellow;
+    color: #1e1e1e;
+    border: 2px solid greenyellow; padding: 7px;
+}
+.content {
+    display: block;
+    position: relative;
+    width: 550px;
+    margin: 100px;
+    bottom: 150px;
+}
+.content h1 {
+    font-family: montserrat;
+    font-weight: bold;
+    color: #d9d9d9;
+    font-size: 70px;
+    text-shadow: -4px 4px 4px#1e1e1e;
+}
+.content p {
+    color: #d9d9d9;
+    font-size: 20px;
+    text-align: left;
+    opacity: 50%;
+}
+.button {
+    position: relative;
+    margin: 100px;
+    bottom: 140px;
+    font-weight: bold;
+}
+.btn {
+    display: block;
+    text-decoration: none;
+    color: #1e1e1e;
+    background-color: #d9d9d9;
+    border: 2px solid #d9d9d9; padding: 7px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 10px;
+    width: 550px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: greenyellow;
+    color: #1e1e1e;
+    border: 2px solid #3b3b3b; padding: 7px;
+    border-radius: 10px;
+    padding: 15px 15px;
+}
+hr {
+    border: 2px solid #3b3b3b;
+}
+.hr2 {
+    position: relative;
+    bottom: 150px;
+}
+.skil {
+    position: relative;
+    top: 30px;
+}
+.skil ul li {
+    color: greenyellow;
+    position: relative;
+    top: 40px;
+}
+.s {
+    color: #d9d9d9;
+}
+#sa {
+    width: 300px;
+    height: 300px;
+}
+#sa:hover {
+    width: 320px;
+    height: 320px;
+}
+.saya {
+    display: flex;
+    width: 677px;
+    height: 400px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 17px;
+    left: 675px;
+}
+.y {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+}
+.y:hover {
+    background-color: greenyellow;
+}
+.tentang  {
+    background-color: greenyellow;
+    color: #1e1e1e;
+    border: 2px solid greenyellow; padding: 7px;
+}
+.ft {
+    position: relative;
+    bottom: 150px;
+    display: block;
+    color: #d9d9d9;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+}.logo {
+    position: relative;
+    left: 70px;
+}
