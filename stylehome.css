@@ -1,0 +1,28 @@
+body {
+    background-color: #1e1e1eff;
+    font-family: roboto, montserrat;
+}
+header, h1, p {
+    text-align: left;
+}
+nav, p, a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    border: 2px;
+    float: right;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    background-color: rgb(58, 57, 57);
+    text-align: right;
+}
+.box {
+    background-color: blue;
+}
+#navigasi {
+    text-align: center;
+}
