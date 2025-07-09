@@ -3,61 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylehome.css">
-    <title>Home Radevjourney</title>
+    <title>Nyoba bikin tampilan CSS</title>
+    <link rel="stylesheet" type="text/css" href="stylehome.css">
 </head>
 <body>
 
 <!-- Header -->
 
-<div id="logo"><img class="logo" onclick="alert('Hall0')" src="LOGO H.png" alt="Logo Saya" width="50px" height="50px"></div>
-<div class="container1">
     <header>
-        <h1 id="judul">ASSALAMUALAIKUM</h1>
-        <p id="teksperkenalan">Perkenalkan, nama saya Rifki. <br> Saya seorang Web Developer, Desain grafis dan Self Development</p>
-        <div class="container3">
-            <a class="link" href="#portofolio" title="Portofolio" type="button:onclick;">Portofolio</a>
-        </div>
-    </header>
-</div>
+        <div class="navbar">
+            <div class="logo"><img src="lg.png" alt="Logo" class="lg"></div>
 
 <!-- Navigasi -->
- 
-<div class="navigasi">
-    <nav>
-        <div class="box"><a href="#">Home</a></div>
-        <div class="box"><a href="#">About Me</a></div>
-        <div class="box"><a href="#">Contact Me</a></div>
-    </nav>
-</div>
+
+            <nav>
+                <a id="hm" href="nyoba lagi.html">Home</a></li>
+                <a href="#pr">Portofolio</a>
+                <a href="about.html">Tentang saya</a>
+                <a href="#">Kontak Kami</a>
+                <a href="#">Pengaturan</a>
+            </nav>
+
+            <!-- Contents -->
+
+        </div>
+        <div class="content">
+            <h1>RADEV <span class="color">JOURNEY</span></h1>
+            <p>Selamat datang di website sederhana kami</p>
+        </div>
+        <div class="button">
+            <a href="#pr" class="btn">PORTOFOLIO</a>
+        </div>
+    </header>
+
+    <!-- holder -->
+
+<hr id="hr1">
 
 <!-- Isi Utama -->
 
-<hr>
-
 <main>
-    <div class="porto">
-        <section id="portofolio">
-            <h2>Portofolio Desain</h2>
-            <img src="CWR.jpg" alt="cold water ranch" width="200px" height="200px">
-            <img src="DD.jpg" alt="drive design" width="200px" height="200px">
-            <img src="P.jpg" alt="phyton" width="200px" height="200px">
-            <img src="PE.jpg" alt="coin emas" width="200px" height="200px">
-        </section>
-    </div>
-    <div class="container2">
-        <section>
-            <h2>Tentang kami</h2>
-            <div class="item1">item1</div>
-            <div class="item2">item2</div>
-        </section>
-    </div>
+
+    <!-- Bagian 1 -->
+
+    <section>
+
+        <!-- Containerbesar -->
+
+        <div id="pr" class="containerbesar">
+
+            <!-- Container 1 -->
+
+            <div class="container1">
+                <di class="bag1"><h2>Portofolio</h2></di>
+            </div>
+
+            <!-- Contaner 2 -->
+
+            <div class="container2">
+                <div class="box llggoo"><img src="CWR.png" title="Cold Water Ranch"></div>
+                <div class="box llggoo"><img src="PE.png" title="Logo PE"></div>
+                <div class="box llggoo"><img src="P.png" title="Phyton Bin Cleaning"></div>
+                <div class="box llggoo"><img src="DD.png" title="Drive Design"></div>
+                <div class="box llggoo"><img src="KGK.png" title="Kutty Guadarjo Khoury"></div>
+                <div class="box llggoo"><img src="RDV.png" title="Radev Journey"></div>
+                <div class="box llggoo"><img src="MTL.png" title="Muslims To"></div>
+                <div class="box llggoo"><img src="K.png" title="Kiidisen"></div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <!-- Footer -->
 
+<hr id="hr2">
 <footer>
-    <p onclick="alert('Haii')">Hak Cipta dilindungi</p>
+    <div class="ft">
+        <div>
+            <p>Media sosial: @radevjourney</p>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
