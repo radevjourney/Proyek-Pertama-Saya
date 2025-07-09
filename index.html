@@ -7,37 +7,52 @@
     <title>Home Radevjourney</title>
 </head>
 <body>
-<!-- Navigasi -->
- 
-<nav>
-    <div class="container1" id="navigasi">
-        <img id="symbol" class="box" src="LOGO H.png" alt="Logo Saya" width="50px" height="50px">
-        <a class="box" id="navigasi" href="index.html">Home</a>
-        <a class="box" id="navigasi" href="about.html">About Me</a>
-        <a class="box" id="navigasi" href="contact.html">Contact Me</a>
-    </div>
-</nav>
 
 <!-- Header -->
 
-<header>
-    <h1 style="color: rgb(115, 255, 0); font-size:50px">Assalamu'alaikum</h1>
-    <p style="color: #d9d9d9ff; font-size: 20px">Perkenalkan, nama saya Rifki. <br> Saya seorang Web Developer, Desain grafis dan Self Development</p>
-    <a href="#portofolio" title="Portofolio" type="button:onclick;">Portofolio</a>
-</header>
+<div id="logo"><img class="logo" onclick="alert('Hall0')" src="LOGO H.png" alt="Logo Saya" width="50px" height="50px"></div>
+<div class="container1">
+    <header>
+        <h1 id="judul">ASSALAMUALAIKUM</h1>
+        <p id="teksperkenalan">Perkenalkan, nama saya Rifki. <br> Saya seorang Web Developer, Desain grafis dan Self Development</p>
+        <div class="container3">
+            <a class="link" href="#portofolio" title="Portofolio" type="button:onclick;">Portofolio</a>
+        </div>
+    </header>
+</div>
+
+<!-- Navigasi -->
+ 
+<div class="navigasi">
+    <nav>
+        <div class="box"><a href="#">Home</a></div>
+        <div class="box"><a href="#">About Me</a></div>
+        <div class="box"><a href="#">Contact Me</a></div>
+    </nav>
+</div>
 
 <!-- Isi Utama -->
 
+<hr>
+
 <main>
-    <section id="portofolio">
-    <h2>Portofolio Desain</h2>
-        <div class="container1">
+    <div class="porto">
+        <section id="portofolio">
+            <h2>Portofolio Desain</h2>
             <img src="CWR.jpg" alt="cold water ranch" width="200px" height="200px">
-        </div>
             <img src="DD.jpg" alt="drive design" width="200px" height="200px">
             <img src="P.jpg" alt="phyton" width="200px" height="200px">
             <img src="PE.jpg" alt="coin emas" width="200px" height="200px">
-    </section>
+        </section>
+    </div>
+    <div class="container2">
+        <section>
+            <h2>Tentang kami</h2>
+            <div class="item1">item1</div>
+            <div class="item2">item2</div>
+        </section>
+    </div>
+</main>
 
 <!-- Footer -->
 

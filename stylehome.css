@@ -1,28 +1,68 @@
 body {
-    background-color: #1e1e1eff;
-    font-family: roboto, montserrat;
+    background-color: #1e1e1e;
 }
-header, h1, p {
-    text-align: left;
+div > p {
+    color: blueviolet;
 }
-nav, p, a {
-    padding: 10px;
-    text-decoration: none;
+.link:hover {
+    border: 2px solid black;
+    background-color: aqua;
+    font-family: roboto;
+    color: azure;
+}
+.box:active {
+    border: 2px solid black;
+    background-color: black;
     font-weight: bold;
-    color: aliceblue;
-    border: 2px;
-    float: right;
+    color: white;
+    display: block;
+}
+.porto {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+#fortofolio {
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+
+}
+.item2 {
+    flex-grow: 1;
+}
+.navigasi {
+    text-decoration: none;
+}
+#judul {
+    color: greenyellow;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 64px
+}
+#teksperkenalan {
+    color: #d9d9d9;
+    text-align: center;
+    font-family: roboto;
 }
 .container1 {
+    display:flex;
+    padding: 100px;
+    justify-content: center;
+}
+.container3 {
     display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    background-color: rgb(58, 57, 57);
-    text-align: right;
+    justify-content: center;
 }
-.box {
-    background-color: blue;
+.logo {
+    position: relative;
+    margin: 50px;
 }
-#navigasi {
-    text-align: center;
+div [id="logo"] {
+    border: 2px solid #d9d9d9;
+    width: 500px;
+    height: 500px;
 }
