@@ -3,64 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nyoba bikin tampilan CSS</title>
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="stylehome.css">
+    <script src="scripthome2.js" defer></script>
 </head>
 <body>
 
 <!-- Header -->
 
-    <header>
-        <div class="navbar">
-            <div class="logo"><img src="lg.png" alt="Logo" class="lg"></div>
-
-<!-- Navigasi -->
-
+<header>
+    <div class="navbar">
+        <div class="logo"><img src="lg.png" alt="Logo"></div>
+        <div class="nav">
             <nav>
-                <a id="hm" href="nyoba lagi.html">Home</a></li>
+                <a class="home" href="index.html">Home</a></li>
                 <a href="#pr">Portofolio</a>
-                <a href="about.html">Tentang saya</a>
-                <a href="#">Kontak Kami</a>
-                <a href="#">Pengaturan</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact Me</a>
+                <a href="#">Setting</a>
             </nav>
 
-            <!-- Contents -->
+        <!-- Contents -->
 
         </div>
-        <div class="content">
-            <h1>RADEV <span class="color">JOURNEY</span></h1>
-            <p>Selamat datang di website sederhana kami</p>
+        <div class="indukcontent">
+            <div class="content">
+                <div class="t"><h1>RADEV <span class="color">JOURNEY</span></h1></div>
+                <div class="p"><p id="p">Selamat datang di halaman website saya.</p></div>
+                <div class="button">
+                    <a href="#pr" class="btn">PORTOFOLIO</a>
+                </div>
+            </div>
         </div>
-        <div class="button">
-            <a href="#pr" class="btn">PORTOFOLIO</a>
-        </div>
-    </header>
-
-    <!-- holder -->
-
-<hr id="hr1">
+    </div>
+</header>
 
 <!-- Isi Utama -->
 
+<hr>
 <main>
-
-    <!-- Bagian 1 -->
-
-    <section>
-
-        <!-- Containerbesar -->
-
-        <div id="pr" class="containerbesar">
-
-            <!-- Container 1 -->
-
-            <div class="container1">
-                <di class="bag1"><h2>Portofolio</h2></di>
-            </div>
-
+    <div class="isi">
+        <section>
+    
             <!-- Contaner 2 -->
-
-            <div class="container2">
+    
+            <div id="pr" class="container2">
                 <div class="box llggoo"><img src="CWR.png" title="Cold Water Ranch"></div>
                 <div class="box llggoo"><img src="PE.png" title="Logo PE"></div>
                 <div class="box llggoo"><img src="P.png" title="Phyton Bin Cleaning"></div>
@@ -70,17 +57,20 @@
                 <div class="box llggoo"><img src="MTL.png" title="Muslims To"></div>
                 <div class="box llggoo"><img src="K.png" title="Kiidisen"></div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </main>
 
 <!-- Footer -->
 
-<hr id="hr2">
+<hr class="hr1">
 <footer>
     <div class="ft">
-        <div>
-            <p>Media sosial: @radevjourney</p>
+        <div class="Appsatu">
+            <p id="app" class="aaaaa">RadevApp</p>
+        </div>
+        <div class="Appdua">
+            <p id="versi" class="aaaaa">v0.29.06.25</p>
         </div>
     </div>
 </footer>
